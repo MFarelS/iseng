@@ -27,6 +27,10 @@ function startTime() {
     if (time < '03:00:00'){
         typeWriter('hai wiya.. tidur udah malem hehehe -fadhil')
     }
+    
+    if (time > '03:00:00'){
+        typeWriter('haii wiyaa..good morning, have a good day yaaa -fadhil')
+    }
 
     if (time < '10:00:00'){
         typeWriter('haii wiya..good morning, have a good day yaaaa -fadhil')
