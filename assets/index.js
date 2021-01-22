@@ -1,5 +1,6 @@
 function startTime() {
 
+    var x = document.getElementById("myAudio");
     var today = new Date();
     var d = today.getDate();
     var M = today.getMonth();
@@ -20,9 +21,11 @@ function startTime() {
     document.getElementById('date').innerHTML =
     date;   
     var t = setTimeout(startTime, 500);
+    
+    x.play();
 
     if (time < '03:00:00'){
-        typeWriter('hai wiya.. tidur udah malem hehehe\n-fadhil')
+        typeWriter('hai wiya.. tidur udah malem hehehe -fadhil')
     }
 
     if (time < '10:00:00'){
