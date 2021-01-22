@@ -21,29 +21,21 @@ function startTime() {
     date;   
     var t = setTimeout(startTime, 500);
 
-    if (time > '17:59:00'){
-        document.getElementById("body").style.backgroundColor = "#00004d";
-        document.getElementById("body").style.color = "white";
-    }
-
     if (time < '03:00:00'){
-        typeWriter('Tidur goblok, jangan begadang!')
+        typeWriter('hai wiya.. tidur udah malem hehehe\n-fadhil')
     }
 
     if (time < '10:00:00'){
-        typeWriter('Masih idup aja lu nyet!')
+        typeWriter('haii wiya..good morning, have a good day yaaaa -fadhil')
     }
 
-    if (time < '18:00:00'){
-        typeWriter('Netflix-an yuk!')
+    if (time < '20:00:00'){
+        typeWriter('haii wiya, gimana hari nya? semoga menyenangkan yaa hehehe -fadhil')
     }
     
-    if (time <= '18:50:00'){
-        typeWriter('solat magrib, goblok!')
-    }
 
     if (time <= '23:59:00'){
-        typeWriter('Isya dulu, baru tidur tolol!')
+        typeWriter('haii wiya..good night, jangan tidur malem-malem yaaaa -fadhil')
     }
 }
 
@@ -53,7 +45,7 @@ function checkTime(i) {
 }
 
 var i = 0;
-var speed = 100;
+var speed = 100000;
 
 function typeWriter(txt) {
   if (i < txt.length) {
@@ -71,8 +63,8 @@ var nodesjs = new NodesJs({
     lineSize: 1,
     particleColor: [255, 255, 255, 0.3],
     lineColor: [255, 255, 255],
-    backgroundFrom: [10, 25, 100],
-    backgroundTo: [25, 50, 150],
+    backgroundFrom: [237, 151, 57],
+    backgroundTo: [242, 127, 0],
     backgroundDuration: 4000,
     nobg: false,
     number: window.hasOwnProperty('orientation') ? 30: 100,
