@@ -24,15 +24,15 @@ function startTime() {
     
     x.play();
 
-    if (time < '03:00:00'){
+    if (time <= '03:00:00'){
         typeWriter('hai acha.. tidur udah malem hehehe -fadhil')
     }
 
-    if (time < '11:00:00'){
+    if (time <= '11:00:00'){
         typeWriter('haii acha..good morning, have a good day yaaaa -fadhil')
     }
 
-    if (time < '20:00:00'){
+    if (time <= '20:00:00'){
         typeWriter('haii acha, gimana hari nya? semoga menyenangkan yaa hehehe -fadhil')
     }
     
