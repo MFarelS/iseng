@@ -33,12 +33,12 @@ function startTime() {
     }
 
     if (time >= '11:01:00'){
-        typeWriter('haii acha, gimana hari nya? semoga menyenangkan yaa hehehe -fadhil')
+        typeWriter('haii acha, selamat siangg, semoga harimu menyenangkan yaa hehehe -fadhil')
     }
     
 
     if (time >= '20:00:00'){
-        typeWriter('haii acha..good night, jangan tidur malem-malem yaaaa -fadhil')
+        typeWriter('haii acha..good night, bagai mana hari mu? jangan tidur malem-malem yaaaa -fadhil')
     }
 }
 
