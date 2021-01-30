@@ -32,12 +32,12 @@ function startTime() {
         typeWriter('haii acha..good morning, have a good day yaaaa -fadhil')
     }
 
-    if (time <= '20:00:00'){
+    if (time >= '11:01:00'){
         typeWriter('haii acha, gimana hari nya? semoga menyenangkan yaa hehehe -fadhil')
     }
     
 
-    if (time <= '23:59:00'){
+    if (time >= '20:00:00'){
         typeWriter('haii acha..good night, jangan tidur malem-malem yaaaa -fadhil')
     }
 }
@@ -48,7 +48,7 @@ function checkTime(i) {
 }
 
 var i = 0;
-var speed = 1000;
+var speed = 100000;
 
 function typeWriter(txt) {
   if (i < txt.length) {
