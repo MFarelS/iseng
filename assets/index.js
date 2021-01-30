@@ -32,13 +32,17 @@ function startTime() {
         typeWriter('haii acha..good morning, have a good day yaaaa -fadhil')
     }
 
-    if (time >= '11:01:00'){
+    if (time <= '15:00:00'){
         typeWriter('haii acha, selamat siangg, semoga harimu menyenangkan yaa hehehe -fadhil')
     }
     
 
-    if (time >= '20:00:00'){
-        typeWriter('haii acha..good night, bagai mana hari mu? jangan tidur malem-malem yaaaa -fadhil')
+    if (time <= '18:00:00'){
+        typeWriter('haii acha..selamat sore, bagai mana hari mu? semoga harimu menyenangkan yaa hehehe -fadhil')
+    }
+
+    if (time <= '23:59:00'){
+        typeWriter('haii acha.. selamat malam, bagai mana hari mu? jangan tidur malem-malem yaaaa -fadhil')
     }
 }
 
@@ -74,4 +78,3 @@ var nodesjs = new NodesJs({
     speed: 20,
     pointerCircleRadius: 150
 });
-  
