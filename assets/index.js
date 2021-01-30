@@ -52,7 +52,7 @@ function checkTime(i) {
 }
 
 var i = 0;
-var speed = 100000;
+var speed = 1000;
 
 function typeWriter(txt) {
   if (i < txt.length) {
